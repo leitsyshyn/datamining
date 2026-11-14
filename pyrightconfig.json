@@ -1,0 +1,20 @@
+{
+  "venvPath": "recommender",
+  "venv": ".venv",
+  "include": ["recommender"],
+  "exclude": ["**/.venv", "**/data", "**/__pycache__"],
+  "typeCheckingMode": "standard",
+  "executionEnvironments": [
+    {
+      "root": "recommender/notebooks",
+      "reportArgumentType": "none",
+      "reportAttributeAccessIssue": "none",
+      "reportCallIssue": "none",
+      "reportIndexIssue": "none",
+      "reportOperatorIssue": "none",
+      "reportOptionalSubscript": "none",
+      "reportOptionalMemberAccess": "none"
+    },
+    { "root": "recommender" }
+  ]
+}
